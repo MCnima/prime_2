@@ -1,0 +1,8 @@
+1.start
+2.input number
+3.try_until = (number//2) + 1
+4.c = 2
+5.if number%c == 0 => print 'number is not prime by factor of' c => stop
+6.c += 1
+7.if c = try_until => print 'number in prime' => stop
+8.else: back to line 5
